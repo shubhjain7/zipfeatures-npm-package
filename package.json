@@ -1,0 +1,23 @@
+{
+  "name": "zipfeatures-download-extract-execute",
+  "version": "1.0.2",
+  "description": "Package to download extract and execute zip files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Jain",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.2",
+    "decompress": "^4.2.1",
+    "download": "^8.0.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.1.0",
+    "node-downloader-helper": "^1.0.17",
+    "path": "^0.12.7"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
